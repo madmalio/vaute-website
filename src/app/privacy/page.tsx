@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
             href="/"
             className="font-black text-xl tracking-tight hover:opacity-80 transition-opacity"
           >
-            Goal Master
+            Vaute
           </Link>
           <Link
             href="/"
@@ -33,9 +33,9 @@ export default function PrivacyPolicy() {
             </h2>
             <div className="p-4 bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-100 dark:border-emerald-900 rounded-xl">
               <p className="font-medium text-emerald-800 dark:text-emerald-200">
-                Goal Master is a <strong>Local-First Application</strong>. We
-                use an in-browser database technology called PGlite (PostgreSQL
-                in WASM). All student names, IEP dates, and tracking logs are
+                Vaute is a <strong>Local-First Application</strong>. We use an
+                in-browser database technology called PGlite (PostgreSQL in
+                WASM). All student names, IEP dates, and tracking logs are
                 stored <strong>exclusively</strong> on your device's hard drive.
                 We do not possess a cloud database for student records, meaning
                 we physically cannot see, sell, or lose your student data.
@@ -68,12 +68,12 @@ export default function PrivacyPolicy() {
               3. Compliance (FERPA/COPPA)
             </h2>
             <p>
-              Because Goal Master does not transmit or store Personally
-              Identifiable Information (PII) on our servers, the usage of this
-              tool falls under the direct control of the educational agency or
-              institution. We act as a tool provider, similar to a locally
-              installed word processor. The responsibility for securing the
-              physical device lies with the user.
+              Because Vaute does not transmit or store Personally Identifiable
+              Information (PII) on our servers, the usage of this tool falls
+              under the direct control of the educational agency or institution.
+              We act as a tool provider, similar to a locally installed word
+              processor. The responsibility for securing the physical device
+              lies with the user.
             </p>
           </section>
 

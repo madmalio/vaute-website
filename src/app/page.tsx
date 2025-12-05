@@ -65,29 +65,33 @@ const CheckIcon = () => (
 
 const LogoIcon = () => (
   <svg
-    className="w-6 h-6 text-white"
+    viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    viewBox="0 0 24 24"
+    aria-label="Vaute shield with graduation hat"
   >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 14l9-5-9-5-9 5 9 5z"
-    />
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-    />
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-    />
+    {/* Move everything up about 0.6 units */}
+    <g transform="translate(0,-0.6)">
+      {/* Shield */}
+      <path
+        d="M12 22s8-4 8-10V5Q12 2 4 5v7c0 6 8 10 8 10z"
+        strokeWidth={1.9}
+        strokeLinejoin="round"
+      />
+
+      {/* Hat */}
+      <path
+        d="M12 6L6.5 10L12 14L17.5 10Z"
+        strokeWidth={1.6}
+        strokeLinejoin="round"
+      />
+      <path d="M17.5 10V14" strokeWidth={1.6} strokeLinecap="round" />
+      <path
+        d="M8.5 11.5v1.5a3.5 3.5 0 0 0 7 0v-1.5"
+        strokeWidth={1.6}
+        strokeLinecap="round"
+      />
+    </g>
   </svg>
 );
 
@@ -101,12 +105,12 @@ export default function LandingPage() {
             <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center shadow-md shadow-indigo-500/20">
               <LogoIcon />
             </div>
-            Goal Master
+            Vaute
           </div>
           <div className="flex items-center gap-4">
             <ThemeToggle />
             <Link
-              href="https://app.goalmaster.com"
+              href="http://localhost:3000"
               className="px-5 py-2 text-sm font-bold bg-slate-900 text-white rounded-full hover:bg-slate-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200 transition-transform hover:scale-105 shadow-lg"
             >
               Launch App
@@ -199,8 +203,8 @@ export default function LandingPage() {
                 Works Offline
               </h3>
               <p className="text-slate-600 dark:text-zinc-400 leading-relaxed">
-                No Wi-Fi? No problem. Goal Master works perfectly offline. It
-                syncs to your hard drive automatically when you're back online.
+                No Wi-Fi? No problem. Vaute works perfectly offline. It syncs to
+                your hard drive automatically when you're back online.
               </p>
             </div>
 
@@ -380,7 +384,7 @@ export default function LandingPage() {
             <div className="w-6 h-6 bg-indigo-600 rounded-md flex items-center justify-center shadow-sm">
               <LogoIcon />
             </div>
-            Goal Master
+            Vaute
           </div>
           <div className="flex justify-center gap-6 mb-8 text-sm text-slate-500 dark:text-zinc-500">
             <a
@@ -396,14 +400,14 @@ export default function LandingPage() {
               Terms of Service
             </a>
             <a
-              href="mailto:support@goalmaster.com"
+              href="mailto:support@vaute.app"
               className="hover:text-indigo-600 dark:hover:text-indigo-400"
             >
               Contact Support
             </a>
           </div>
           <p className="text-slate-400 dark:text-zinc-600 text-sm">
-            © {new Date().getFullYear()} Goal Master. All rights reserved.
+            © {new Date().getFullYear()} Vaute. All rights reserved.
           </p>
         </div>
       </footer>

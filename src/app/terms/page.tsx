@@ -9,7 +9,7 @@ export default function TermsOfService() {
             href="/"
             className="font-black text-xl tracking-tight hover:opacity-80 transition-opacity"
           >
-            Goal Master
+            Vaute
           </Link>
           <Link
             href="/"
@@ -30,9 +30,9 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using Goal Master ("the Service"), you agree to be
-              bound by these Terms. If you disagree with any part of the terms,
-              you may not access the Service.
+              By accessing or using Vaute ("the Service"), you agree to be bound
+              by these Terms. If you disagree with any part of the terms, you
+              may not access the Service.
             </p>
           </section>
 
@@ -58,8 +58,8 @@ export default function TermsOfService() {
                 CRITICAL NOTICE regarding Data Backups:
               </p>
               <p className="text-amber-900/80 dark:text-amber-100/80 text-sm">
-                Goal Master stores data exclusively on your local device
-                (browser IndexedDB). We do not keep a cloud backup of your data.
+                Vaute stores data exclusively on your local device (browser
+                IndexedDB). We do not keep a cloud backup of your data.
                 <strong>
                   You are solely responsible for backing up your data.
                 </strong>{" "}
@@ -75,9 +75,9 @@ export default function TermsOfService() {
               4. Use License & Education
             </h2>
             <p>
-              Permission is granted to use Goal Master for personal or
-              professional educational purposes. This is the grant of a license,
-              not a transfer of title.
+              Permission is granted to use Vaute for personal or professional
+              educational purposes. This is the grant of a license, not a
+              transfer of title.
             </p>
             <p className="mt-2">
               This tool is intended to aid special education professionals. It
@@ -90,12 +90,11 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold mb-4">5. Disclaimer</h2>
             <p>
-              The materials on Goal Master are provided on an 'as is' basis.
-              Goal Master makes no warranties, expressed or implied, and hereby
-              disclaims and negates all other warranties including, without
-              limitation, implied warranties or conditions of merchantability,
-              fitness for a particular purpose, or non-infringement of
-              intellectual property.
+              The materials on Vaute are provided on an 'as is' basis. Vaute
+              makes no warranties, expressed or implied, and hereby disclaims
+              and negates all other warranties including, without limitation,
+              implied warranties or conditions of merchantability, fitness for a
+              particular purpose, or non-infringement of intellectual property.
             </p>
           </section>
 
