@@ -110,7 +110,7 @@ export default function LandingPage() {
           <div className="flex items-center gap-4">
             <ThemeToggle />
             <Link
-              href="http://localhost:3000"
+              href="http://app.vaute.app"
               className="px-5 py-2 text-sm font-bold bg-slate-900 text-white rounded-full hover:bg-slate-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200 transition-transform hover:scale-105 shadow-lg"
             >
               Launch App
@@ -140,7 +140,7 @@ export default function LandingPage() {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
             <Link
-              href="https://app.goalmaster.com"
+              href="https://app.vaute.app"
               className="px-8 py-4 bg-indigo-600 text-white text-lg font-bold rounded-xl shadow-xl shadow-indigo-500/30 hover:bg-indigo-700 transition-all hover:-translate-y-1"
             >
               Start Tracking for Free
@@ -271,7 +271,7 @@ export default function LandingPage() {
               </ul>
 
               <Link
-                href="https://app.goalmaster.com"
+                href="https://app.vaute.app"
                 className="block w-full py-4 text-center font-bold text-indigo-600 bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-900/20 dark:text-indigo-300 dark:hover:bg-indigo-900/40 rounded-xl transition-colors"
               >
                 Start for Free
@@ -311,7 +311,7 @@ export default function LandingPage() {
               </ul>
 
               <Link
-                href="https://app.goalmaster.com/settings"
+                href="https://vaute.lemonsqueezy.com/buy/d44742cd-7108-4ef7-a066-507321e9d944"
                 className="block w-full py-4 text-center font-bold bg-indigo-500 hover:bg-indigo-600 text-white rounded-xl transition-colors shadow-lg shadow-indigo-500/50"
               >
                 Get Lifetime Access
