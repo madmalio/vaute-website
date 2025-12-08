@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes"; // <--- 1. Import
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Goal Master - IEP Tracking",
+  title: "Vaute - IEP Tracking",
   description: "Privacy-first IEP tracking for special education.",
 };
 
